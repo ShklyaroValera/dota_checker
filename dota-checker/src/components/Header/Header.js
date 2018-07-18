@@ -70,23 +70,24 @@ export default class Header extends Component {
 
 const Container = styled.div`
     display: flex;
-    width: 100%;
-    padding: 30px;
-    border-bottom: 2px solid black;
+    width: calc(100% - 40px);
+    padding: 20px;
+    color: #DCDCDC;
+    background-color: #1C242D;
 `
 
 const Avatar = styled.img`
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     border-radius: 100px;
 `
 
 const Name = styled.div`
-    font-size: 38px;
+    font-size: 28px;
 `
 
 const Info = styled.div`
     display: flex;
     flex-direction: column;
-    padding-left: 30px;
+    padding-left: 20px;
 `

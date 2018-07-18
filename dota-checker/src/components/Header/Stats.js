@@ -18,16 +18,16 @@ const Stat = styled.div`
 const Item = styled.div`
     display: flex;
     flex-direction: column;
-    padding: 30px 40px 0 0;
+    padding: 20px 30px 0 0;
 `
 
 const Label = styled.div`
-    font-size: 20px;
+    font-size: 16px;
     text-transform: uppercase;
 `
 
 const Count = styled.div`
-   font-size: 30px;
+   font-size: 20px;
 
    &.wins {
        color: green;
@@ -38,7 +38,7 @@ const Count = styled.div`
    } 
 
    &.defaultStat {
-       color: black;
+       color: #DCDCDC;
    }
 `
 

@@ -20,3 +20,9 @@ export const getProfileData = async (id) => {
         }
     }
 }
+
+export const getPlayerHeroes = async (id) => {
+    const heroes = await fetch(`${api}/players/${id}/heroes`)
+    
+    return heroes.json()
+}
