@@ -10,7 +10,11 @@ export default class BestHeroes extends Component {
 
         this.props.heroes.forEach(hero => {
             data.push({
-                hero: getHero(hero.hero_id),
+                hero: {
+                    name: getHero(hero.hero_id).name,
+                    img: getHero(hero.hero_id).img,
+                    id: hero.hero_id
+                },
                 games: hero.games,
                 wins: hero.win,
                 losses: (hero.games - hero.win),
@@ -24,13 +28,8 @@ export default class BestHeroes extends Component {
     titles = ["hero", "games", "wins", "losses", "winrate"]
 
     render() {
-        console.log(this.props.heroes)
         return(
-            <div>
-                {
-                    <Table titles={this.titles} data={this.getData()} />
-                }
-            </div>
+            <Table titles={this.titles} data={this.getData()} tableName="Best Heroes" path="/heroes" />
         )
     }
 }

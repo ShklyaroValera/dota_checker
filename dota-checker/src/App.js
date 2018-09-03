@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
 import Header from './components/Header/'
-import Overview from './components/Overview'
+import { BrowserRouter } from 'react-router-dom'
 import styled from 'styled-components'
+import Routes from './Routes'
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <Header />
-        <Overview />
-      </div>
+      <BrowserRouter>
+        <Routes />
+      </BrowserRouter>
     )
   }
 }

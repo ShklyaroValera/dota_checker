@@ -1033,6 +1033,15 @@ const heroes = [
         "url_large_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dark_willow_lg.png", 
         "url_vertical_portrait": "http://cdn.dota2.com/apps/dota2/images/heroes/dark_willow_vert.jpg", 
         "id": 119
+    },
+    {
+        "localized_name": "Grimstroke", 
+        "url_full_portrait": "https://c-5uwzmx78pmca09x24l9c3x781t2ex78ig1sx2ektwclnzwvbx2evmb.g00.gamepedia.com/g00/3_c-5lwbi0.oiumx78mlqi.kwu_/c-5UWZMXPMCA09x24pbbx78ax3ax2fx2fl9c3x781t2ex78ig1s.ktwclnzwvb.vmbx2flwbi0_oiumx78mlqix2flx2fl5x2fOzquabzwsm_qkwv.x78vox3fdmzaqwvx3d794ki0022315m036k04l580k31682in0x26q98k.uizsx3dquiom_$/$/$/$/$", 
+        "name": "npc_dota_hero_grimstroke", 
+        "url_small_portrait": "https://c-5uwzmx78pmca09x24l9c3x781t2ex78ig1sx2ektwclnzwvbx2evmb.g00.gamepedia.com/g00/3_c-5lwbi0.oiumx78mlqi.kwu_/c-5UWZMXPMCA09x24pbbx78ax3ax2fx2fl9c3x781t2ex78ig1s.ktwclnzwvb.vmbx2flwbi0_oiumx78mlqix2flx2fl5x2fOzquabzwsm_qkwv.x78vox3fdmzaqwvx3d794ki0022315m036k04l580k31682in0x26q98k.uizsx3dquiom_$/$/$/$/$", 
+        "url_large_portrait": "https://c-5uwzmx78pmca09x24l9c3x781t2ex78ig1sx2ektwclnzwvbx2evmb.g00.gamepedia.com/g00/3_c-5lwbi0.oiumx78mlqi.kwu_/c-5UWZMXPMCA09x24pbbx78ax3ax2fx2fl9c3x781t2ex78ig1s.ktwclnzwvb.vmbx2flwbi0_oiumx78mlqix2flx2fl5x2fOzquabzwsm_qkwv.x78vox3fdmzaqwvx3d794ki0022315m036k04l580k31682in0x26q98k.uizsx3dquiom_$/$/$/$/$", 
+        "url_vertical_portrait": "https://c-5uwzmx78pmca09x24l9c3x781t2ex78ig1sx2ektwclnzwvbx2evmb.g00.gamepedia.com/g00/3_c-5lwbi0.oiumx78mlqi.kwu_/c-5UWZMXPMCA09x24pbbx78ax3ax2fx2fl9c3x781t2ex78ig1s.ktwclnzwvb.vmbx2flwbi0_oiumx78mlqix2flx2fl5x2fOzquabzwsm_qkwv.x78vox3fdmzaqwvx3d794ki0022315m036k04l580k31682in0x26q98k.uizsx3dquiom_$/$/$/$/$", 
+        "id": 121
     }
     ]
 

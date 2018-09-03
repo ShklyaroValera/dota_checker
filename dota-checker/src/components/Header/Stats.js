@@ -30,11 +30,11 @@ const Count = styled.div`
    font-size: 20px;
 
    &.wins {
-       color: green;
+       color: #66bb6a;
    }
 
    &.losses {
-       color: red;
+       color: #FF4C4C;
    } 
 
    &.defaultStat {
